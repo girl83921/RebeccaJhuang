@@ -43,7 +43,7 @@ table {
 	border-spacing: 0;
 }
 
-a:link, a:visited {
+a, a:visited {
 	color: #fff;
 }
 
