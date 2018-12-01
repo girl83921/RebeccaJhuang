@@ -1,0 +1,306 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+.title {
+	color: #8CBFD8;
+	font-size: 36px;
+	font-weight: bold;
+	font-family: 微軟正黑體;
+	margin: 100px auto 50px 120px;
+}
+
+.p_banner {
+	position: absolute;
+	left: 130px;
+	top: 85px;
+	padding-bottom: 5px;
+	border-bottom: 4px dashed #8CBFD8;
+}
+
+.pic_div {
+	position: relative;
+	top: 80px;
+	left: 130px;
+	margin-bottom: 20px;
+}
+
+.p_pic {
+	position: absolute;
+	left: 295px;
+	top: 53px;
+}
+
+.word1 {
+	font-family: 微軟正黑體;
+	font-size: 20px;
+	position: relative;
+	left: 130px;
+	top: 80px;
+}
+
+.word2 {
+	font-family: 微軟正黑體;
+	font-size: 20px;
+	position: relative;
+	top: 200px;
+	left: 130px;
+}
+
+.word3 {
+	font-family: 微軟正黑體;
+	font-size: 20px;
+	position: relative;
+	left: 130px;
+	margin-bottom: 25px;
+}
+
+.word4 {
+	font-family: 微軟正黑體;
+	font-size: 20px;
+	position: relative;
+	top: 60px;
+	left: 130px;
+	margin-bottom: 25px;
+}
+
+.word5 {
+	font-family: 微軟正黑體;
+	font-size: 20px;
+	position: relative;
+	top: -85px;
+	left: 130px;
+	margin-bottom: 25px;
+}
+
+.word6 {
+	font-family: 微軟正黑體;
+	font-size: 20px;
+	position: relative;
+	left: 130px;
+	margin-bottom: 20px;
+}
+
+.word7 {
+	font-family: 微軟正黑體;
+	font-size: 20px;
+	position: relative;
+	bottom: 100px;
+	left: 130px;
+}
+
+.word8 {
+	font-family: 微軟正黑體;
+	font-size: 20px;
+	position: relative;
+	left: 130px;
+	margin-bottom: 20px;
+}
+
+.word9 {
+	position: relative;
+	left: 130px;
+	font-family: 微軟正黑體;
+	top: 10px;
+	margin-bottom: 20px;
+}
+
+.word10 {
+	position: relative;
+	margin-right: 300px;
+	margin-bottom: 10px;
+	left: 130px;
+	font-family: 微軟正黑體;
+}
+
+.word11 {
+	position: relative;
+	margin-right: 300px;
+	margin-bottom: 10px;
+	left: 175px;
+	bottom: 25px;
+	font-family: 微軟正黑體;
+}
+
+.container1 {
+	position: relative;
+	top: 105px;
+	left: 130px;
+}
+
+.container2 {
+	position: relative;
+	top: 230px;
+	left: 130px;
+}
+
+.container3 {
+	position: relative;
+	left: 130px;
+}
+
+.container4 {
+	position: relative;
+	left: 130px;
+	top: 60px;
+}
+
+.container5 {
+	position: relative;
+	top: -90px;
+	left: 130px;
+}
+
+.container6 {
+	position: relative;
+	left: 130px;
+}
+
+.container6_p_img {
+	padding-right: 20px;
+}
+
+.container7 {
+	position: relative;
+	top: -80px;
+	left: 130px;
+}
+
+.a img {
+	height: 250px;
+}
+
+.aa img {
+	height: 475px;
+	padding-right: 15px;
+	margin-bottom: 80px;
+}
+
+.aaa img {
+	height: 405px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+.aaaa img {
+	height: 400px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	float: left;
+}
+
+.aaaaa img {
+	height: 720px;
+	float: left;
+	position: relative;
+	left: 130px;
+	margin-bottom: 60px;
+}
+
+.b img {
+	width: 175px;
+	float: left;
+	position: relative;
+	left: 130px;
+}
+
+.b1 img {
+	width: 175px;
+	float: left;
+	position: relative;
+	left: 175px;
+	bottom: 25px;
+	margin-bottom: 40px;
+}
+
+.p img {
+	border: #666 1px solid;
+}
+
+.p1 {
+	width: 570px;
+	position: relative;
+	top: -30px;
+	left: 680px;
+	font-family: 微軟正黑體;
+	font-size: 17px;
+	line-height: 130%;
+	letter-spacing: 3px;
+	text-align: justify;
+	margin-bottom: 60px;
+}
+
+.p2 {
+	width: 560px;
+	position: relative;
+	top: -235px;
+	left: 680px;
+	font-family: 微軟正黑體;
+	font-size: 17px;
+	text-align: justify;
+	line-height: 130%;
+}
+
+.p3 {
+	font-family: 微軟正黑體;
+	font-size: 17px;
+	text-align: justify;
+	line-height: 130%;
+	width: 580px;
+	position: relative;
+	left: 530px;
+	bottom: 565px;
+}
+
+.a_hr {
+	width: 1108px;
+	position: relative;
+	left: 130px;
+	margin-bottom: 80px;
+}
+
+.a2_hr {
+	width: 1108px;
+	position: relative;
+	left: 130px;
+}
