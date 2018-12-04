@@ -53,28 +53,32 @@ body {
 	font-family: 微軟正黑體;
 	font-size: 18px;
 	color: #FFF;
-	height: 50px;
+	height: 65px;
+}
+
+.contents_1_td {
+	padding-right: 65px
+}
+
+.contents_td {
+
+	padding-right: 45px;
 }
 
 ul {
 	float: right;
-	padding: 15px 0
+	padding: 23px 0
 }
 
 li {
 	display: inline-block;
 }
 
-.contents_1_td {
-	padding-right: 10px
-}
 
-.contents_td {
-	padding-left: 50px;
-	padding-right: 20px;
-}
 
-a {
+
+a, a:visited {
+	color: #fff;
 	text-decoration: none;
 }
 
@@ -99,4 +103,14 @@ a:hover {
 
 .pic {
 	text-align: center;
+}
+
+.part1 img{
+	padding-right: 50px;
+}
+
+
+
+.part6 img{
+	padding-right: 50px;
 }
