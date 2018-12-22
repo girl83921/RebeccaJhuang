@@ -38,14 +38,12 @@ blockquote:before, blockquote:after, q:before, q:after {
 	content: none;
 }
 
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+
 
 a, a:visited {
 	color: #fff;
 }
+
 
 .menu {
 	width: 800px;
@@ -223,4 +221,205 @@ a:visited {
 	text-align: left;
 	margin-top: 10px;
 	margin-left: 25px;
+}
+
+
+@media (max-width: 736px) {
+
+
+.head{
+  background-color: #8CBFD8;
+  width: 100%;
+  height: 200px;}
+
+.shadow img{
+  width:52px;
+}
+
+.shadow {
+  position: absolute;
+  left: 40px;
+  top: 38px;
+}
+
+.hey {
+  position: absolute;
+  left: 117px;
+  top: 81px;
+  font-family: arial;
+  color: #FFF;
+  font-size: 16px;
+}
+
+.name {
+  position: absolute;
+  left: 96px;
+  top: 105px;
+  font-family: arial;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+ul{width:250px;
+margin-left: 36px;}
+
+li {
+  font-size: 18px;
+  font-family: 微軟正黑體; /* position:absolute; */
+  top: 350px;
+  background: #8CBFD8;
+  border-radius: 10px;
+  color: #FFF;
+  width: 100px;
+  text-align: center;
+  float: left;
+  margin-top: 10px;
+  padding: 5px;
+
+}
+
+.home_menu_li1 {
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+.home_menu_li2 {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.home_menu_li3 {
+  margin-left: 0px;
+  margin-right: 10px;
+
+}
+
+.home_menu_li4 {
+  margin-left: 0px;
+  margin-right: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #5E90A4;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+.design_me_all {
+  width: 100%;
+  margin: 80px auto 80px auto;
+}
+
+.design_me_all img{
+width: 250px;
+margin-left: 27px;
+margin-top: 15px;}
+
+
+.pro_pic {
+  margin-right: 20px;
+  float: none;}
+
+
+.title_all {
+  color: #5E90A4;
+  font-size: 18px;
+}
+
+.design_me_title {
+  font-family: 微軟正黑體;
+  font-size: 24px;
+  margin:10px 24px;
+  color: #5E90A4;
+  font-weight: bold;
+}
+
+.design_me {
+  font-family: 微軟正黑體;
+  font-size: 16px;
+  line-height: 21px;
+  width: 260px;
+  margin-left: 24px;
+}
+
+.info_all {
+  width: 100%;
+  font-family: 微軟正黑體, arial;
+  font-size: 14px;
+  margin-left: 24px;
+}
+
+.info_span {
+  margin-left: 10px;
+}
+
+.info_div {
+  margin-right: 70px;
+  margin-bottom: 90px;
+  line-height: 21px;
+}
+
+.table_skill {
+  width: 220px;
+}
+
+.ed_div {
+  margin-right: 0px;
+  margin-bottom: 90px;
+  line-height: 21px;
+}
+
+.table_work_up {
+  width: 100%;
+}
+
+.table_work_down_l {
+  font-size: 16px;
+  font-weight: bold;
+  width: 300px;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.table_work_down_r {
+  font-size: 16px;
+  font-weight: bold;
+  width: 100%;
+  text-align: left;
+  margin-top: 110px;
+  margin-left: 0px;
+  padding-right: 20px;
+}
+
+
+.table_work_up_08{
+  width: 260px;
+  position: absolute;
+  top: 1820px;
+  left: 24px;}
+
+.table_work_up_081{
+  width: 260px;
+  position: absolute;
+  top: 1840px;
+  left: 24px;}
+
+.table_work_up_082{
+  width: 260px;
+  position: absolute;
+  top: 1860px;
+  left: 24px;}
+
+
+
+
+
 }
