@@ -117,3 +117,134 @@ table {
 	top: 710px;
 	letter-spacing: 2.5px;
 }
+
+@media (max-width: 667px) {
+
+
+.img {
+	position:relative;
+	right: 0px;
+	top: 0px;
+}
+.img img{
+width: 0px;
+}
+
+.container {
+	position:relative;
+	top: 50px;
+	width: 1000px;
+}
+
+.title {
+	color: #8CBFD8;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 微軟正黑體;
+}
+
+.p_edm1 {
+	position:relative;
+	left: 30px;
+	width:200px;
+	top: -5px;
+	padding-bottom: 5px;
+	border-bottom: 4px dashed #8CBFD8;
+display: inline-block;
+margin-bottom: 20px;
+
+}
+
+.p_pic1 {
+	position:relative;
+	left: 20px;
+	top: 7px;
+	width: 100px;
+display: inline-block;
+
+}
+
+.p_edm2 {
+	position: relative;
+	left: 30px;
+	top: 790px;
+	width: 148px;
+	padding-bottom: 5px;
+	border-bottom: 4px dashed #8CBFD8;
+	display: inline-block;
+}
+
+.p_pic2 {
+	position:absolute;
+display: inline-block;
+	left:175px;
+	top:860px;
+}
+
+.magazine {
+	float: none;
+	margin: 0px;
+	position: relative;
+	left: 30px;
+}
+
+.magazine img{
+	width: 300px;
+	float: none;
+	margin: 0px;
+}
+
+.edm {
+	float:none;
+	margin-top:450px;
+	position: absolute;
+	left: 30px;
+}
+
+.edm img{width: 300px;}
+
+.word {
+	font-family: 微軟正黑體;
+	font-size: 18px;
+	color: #000;
+	line-height: 1.3em;
+}
+
+.p1 {
+	position: absolute;
+	top: 565px;
+	left: 30px;
+	width: 300px;
+	padding-right: 80px;
+	letter-spacing: 2px;
+	margin-bottom: 80px;
+	text-align: justify;
+}
+
+.p2 {
+	position:absolute;
+	width: 100%;
+	top: 1315px;
+	letter-spacing: 2.5px;
+	left: 30px;
+	width: 300px;
+		text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+}
